@@ -1,14 +1,13 @@
-# PHASE-MODULATION-AND-DEMODULATION-USING-SCILAB
-AIM
+# PHASE-MODULATION-USING-SCILAB
+## AIM
 
-To write a program for Phase Modulation and Demodulation using SCILAB and to observe and measure the phase deviation and modulation index.
-
-APPARATUS REQUIRED
+To write a program for Phase Modulation using SCILAB and to observe and verify its output waveform
+## APPARATUS REQUIRED
 
 Computer with i3 Processor or higher
 SCILAB Software
 
-THEORY
+## THEORY
 
 Phase Modulation (PM) is a modulation technique in which the phase of the carrier signal is varied in accordance with the instantaneous amplitude of the modulating signal, while the amplitude of the carrier remains constant.
 
@@ -43,7 +42,7 @@ fm = Modulating frequency
 kp = Phase sensitivity
 mp = Modulation index
 
-ALGORITHM
+## ALGORITHM
 
 Define parameters:
 Sampling frequency Fs
@@ -56,18 +55,14 @@ m(t) = sin(2πfm t)
 c(t) = cos(2πfc t)
 PM Modulation:
 s(t) = cos(2πfc t + kp * m(t))
-PM Demodulation:
-Differentiate the PM signal
-Apply envelope detection:
-|s(t)|
-Use low-pass filter to recover the original signal
+
 Plot all signals:
 Modulating signal
 Carrier signal
 PM signal
-Demodulated signal
 
-PROCEDURE
+
+## PROCEDURE
 
 Refer to the algorithm and write the SCILAB code.
 Open SCILAB software.
@@ -77,10 +72,11 @@ Execute the code.
 Debug errors if any and re-run.
 Observe the generated waveforms.
 
-MODEL GRAPHS
+## OUTPUT
+<img width="1600" height="1200" alt="WhatsApp Image 2026-06-03 at 11 50 28 AM" src="https://github.com/user-attachments/assets/eec71ae7-084d-49e1-8a57-46a340b9a8b0" />
 
-TABULATIONS
 
-CALCULATIONS
 
-RESULT
+
+## RESULT
+Thus code for phase modulation was executed in SCILAB and its output was verified.
